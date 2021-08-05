@@ -158,11 +158,6 @@ class NavigationDrawerWidget extends StatelessWidget {
           builder: (context) => OrderHistory(),
         ));
         break;
-      case 1:
-        Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => FavouritesPage(),
-        ));
-        break;
       case 2:
         Navigator.of(context).push(MaterialPageRoute(
           builder: (context) => Payment(),
